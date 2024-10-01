@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 2</title>
+    
+    <style>
+
+        
+        .botao {
+            display: inline-block; 
+            padding: 10px 20px; 
+            background-color: #4CAF50; 
+            color: white; 
+            text-align: center; 
+            text-decoration: none; 
+            border-radius: 5px;
+            transition: background-color 0.3s; 
+            margin: 20px auto;
+        }
+
+        .botao:hover {
+            background-color: #45a049; 
+        }
+    
+    </style>
+
+</head>
+<body>
+    
+    <form action="Atividade2.php" method="post">
+
+        <label for="nome">Digite o seu nome</label>
+        <input type="text" name="nome" placeholder="Digite o seu nome">
+        <br>
+
+        <label for="n1">Digite a primeira nota</label>
+        <input type="text" name="n1" placeholder="Digite a primeira nota">
+        <br>
+
+        <label for="n2">Digite a segunda nota</label>
+        <input type="text" name="n2" placeholder="Digite a segunda nota">
+        <br>
+
+        <label for="n3">Digite a terceira nota</label>
+        <input type="text" name="n3" placeholder="Digite a terceira nota">
+        <br>
+
+        <input type="submit" name="submit" value="Calcular Media">
+
+    </form>
+    <p><a href="index.html" class="botao">Voltar ao Menu</a></p>
+
+
+</body>
+</html>

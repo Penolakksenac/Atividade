@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 4</title>
+
+    <style>
+        .botao {
+            display: inline-block; 
+            padding: 10px 20px; 
+            background-color: #4CAF50; 
+            color: white; 
+            text-align: center; 
+            text-decoration: none; 
+            border-radius: 5px;
+            transition: background-color 0.3s; 
+            margin: 20px auto;
+        }
+
+        .botao:hover {
+            background-color: #45a049; 
+        }
+    </style>
+
+</head>
+<body>
+    <h1>Selecione os Materiais Esportivos</h1>
+    <form action="Atividade4.php" method="post">
+        <label><input type="checkbox" name="materiais[]" value="Bola de Futebol"> Bola de Futebol</label><br>
+        <label><input type="checkbox" name="materiais[]" value="Raquete de Tênis"> Raquete de Tênis</label><br>
+        <label><input type="checkbox" name="materiais[]" value="Canoeira"> Canoeira</label><br>
+        <label><input type="checkbox" name="materiais[]" value="Patins"> Patins</label><br>
+        <label><input type="checkbox" name="materiais[]" value="Tênis de Corrida"> Tênis de Corrida</label><br>
+        <label><input type="checkbox" name="materiais[]" value="Bolsa de Ginástica"> Bolsa de Ginástica</label><br>
+        <label><input type="checkbox" name="materiais[]" value="Saco de Boxe"> Saco de Boxe</label><br>
+        <label><input type="checkbox" name="materiais[]" value="Equipamento de Natação"> Equipamento de Natação</label><br>
+        <label><input type="checkbox" name="materiais[]" value="Prancha de Surf"> Prancha de Surf</label><br>
+        <label><input type="checkbox" name="materiais[]" value="Haltere"> Haltere</label><br>
+
+        <input type="submit" value="Visualizar Materiais Selecionados">
+    </form>
+    <p><a href="index.html" class="botao">Voltar ao Menu</a></p>
+
+
+</body>
+</html>
